@@ -1,31 +1,31 @@
-# Framework-Silex-Demo-Website
+# Framework Silex Pack de Démarrage
 ============================
 
-This project is a sample website based on [silex](http://silex.sensiolabs.org/) used for training.
+Architecture vierge pour bien démarrer avec [silex](http://silex.sensiolabs.org/).
 -
 Exemple de site internet complet sous SILEX.
-Modélisation et Base de Données dans le répertoire : "projet"
 
-Fonctionnalités (FR)
+Avantages
 ------------
 
-- Bien structurer son projet SILEX
-- Comment utiliser le ControllerServiceProvider (Exemple d'une façon de faire...)
+- Structurer son projet SILEX
+- Utiliser les Avantages du ControllerServiceProvider (Exemple d'une façon de faire...)
 - Utiliser Twig et Asset Service Provider
-- Utiliser les Formulaires, la protection CSRF, l'Upload et la Validation des données
-- Utiliser Doctrine DBAL et/ou Idiorm ORM
-- L'Inscription, la connexion et la gestion des droits d'accès des Membres
-- La Gestion des requètes AJAX et des réponses en JSON
+- Utiliser les Formulaires, la protection CSRF et la Validation des données
+- Utiliser  [Doctrine DBAL](http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/) et/ou [Idiorm ORM](https://github.com/j4mie/idiorm)
+- Le Firewall pour l'Inscription, la connexion et la gestion des droits d'accès des membres
 - La Gestion des Erreurs 404 et autres...
 
 Installation
 ------------
 
-    git clone https://github.com/biynmedia/Framework-Silex-Demo-Website
-    cd Framework-Silex-Demo-Website
+    git clone biynmedia/Silex-Starter-Pack
+    cd Silex-Starter-Pack
     composer install
-
-Demo
-----
-
-Will be deployed soon.
+    
+En Plus
+------------
+    Besoin d'un exemple plus complet ?
+    Projet de Démonstration Silex avec les principales fonctionnalités.
+   
+[Framework Silex Demo Website](https://github.com/biynmedia/Framework-Silex-Demo-Website)
